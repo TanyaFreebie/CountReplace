@@ -12,10 +12,10 @@ public class Main {
     */
 
     //1.step Start a loop
-        for(int i = 0; i <= 50; i++){
+        for(int i = 1; i <= 50; i++){
             //2.step start if
 
-                if (i % 3 == 0 && i % 7 == 0) { //FizBuzz case will go first
+               if (i % 3 == 0 && i % 7 == 0) { //FizBuzz case will go first
                     System.out.println("FizzBuzz");
                 } else if (i %3 == 0) { //Fizz case
                     System.out.println("Fizz");
